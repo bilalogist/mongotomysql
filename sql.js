@@ -77,7 +77,7 @@ if (!schemaFile || !dataFile) {
   var dataTypes = {
     string: "VARCHAR(1000)",
     boolean: "TINYINT(1)",
-    date: "DATETIME",
+    date: "VARCHAR(300)",
     number: "DECIMAL(10,2)",
   };
 }
